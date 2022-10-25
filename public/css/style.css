@@ -1,0 +1,67 @@
+body{
+    color: rgb(17, 58, 58);
+    font-family: Arial;
+   background-color:rgba(169, 169, 169, 0.322) ;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0 16px;
+}
+.maincontent{
+    flex-grow: 1;
+} 
+footer{
+    color: rgb(17, 58, 58);
+    border-top:1px solid dimgray;
+    margin-top: 16px;
+    
+    padding: 1px 16px;
+}
+header{
+    color: rgb(17, 58, 58);
+
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
+.links{
+    border-bottom:3px  solid dimgray; 
+    
+   
+    margin-bottom: 56px;
+}
+header h1{
+    margin-top: 16px;
+    font-size: 64px;
+    margin-bottom: 16px;
+
+}
+ a{
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 56px;
+    margin-top: 56px;
+
+   
+}
+
+input{
+    border: 1px solid #cccccc;
+    padding: 8px;
+    border-style:double;
+
+}
+button{
+    cursor: pointer;
+    border: 1px solid #888888;
+    color: #333333;
+    background-color: dimgrey;
+    padding: 8px;
+}
+.portlait{
+    width: 250px;
+}
